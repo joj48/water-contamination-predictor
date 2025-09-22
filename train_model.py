@@ -45,6 +45,5 @@ print(classification_report(y_test, y_pred))
 print(accuracy_score(y_train, y_train_pred))
 print(accuracy_score(y_test, y_pred))
 
-def
 joblib.dump(best_model, "contamination_model.pkl")
 
